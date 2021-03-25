@@ -1,0 +1,20 @@
+{
+  "name": "node-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js",
+    "watch": "onchange -i -k '**/*.js' -- npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "hapi-pino": "^8.3.0",
+    "metaapi.cloud-sdk": "^12.3.0",
+    "onchange": "^7.1.0"
+  }
+}
